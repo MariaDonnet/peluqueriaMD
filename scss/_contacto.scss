@@ -1,0 +1,67 @@
+.datos{
+    display: flex;
+    justify-content: center;
+    padding: 4% 0;
+    gap: 40px;
+}
+
+iframe{
+    width: 50%;
+}
+
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contactoInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fa-phone-volume{
+    padding-right: 15px;
+    &:hover{
+        color: #204cc6;
+    }
+}
+
+.fa-envelope{
+    padding-right: 15px;
+    &:hover{
+        color: #279e17;
+    }
+}
+
+.fa-location-dot{
+    padding-right: 15px;
+    &:hover{
+        color: #e81a16;
+    }
+}
+
+.lineaContacto {
+    height: 2px;
+    max-width: 60px;
+    margin: 20px 0;
+    border-top: 1px solid #000000;
+}
+
+.boton{
+    .btn{
+        background-color: $colorSecundario;
+        color: $color-bg;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border: none;
+        box-shadow: 0px 3px 8px;
+        padding: 8px 30px;
+        &:hover{
+            background-color:#3f1b2fe6;
+            color: rgb(0, 0, 0);
+        }
+    }
+}

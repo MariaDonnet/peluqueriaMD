@@ -1,0 +1,357 @@
+/******************* TABLET *******************/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+/* NAV */
+    .nav-item a{
+    font-size: 14px;
+    }
+/* TRATAMIENTOS */
+.tituloTratamientos{
+    padding-top: 3rem;
+}
+    .d-grid{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .item img {
+        height: 280px;
+    }
+    .botonWsp {
+        margin: 4% 8%;
+    }
+    .botonCita{
+        font-size: 15px;
+    }
+    .imgWp {
+        height: 35px;
+        width: 35px;
+    }
+/* INFORMACION */
+    .mainMicaela{
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 3fr;
+    grid-template-areas:
+    "infoMicaela" 
+    "imagenMicaela";
+    } 
+/* CONTACTO */
+    .datos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr;
+        grid-template-areas: 
+        "informacion"
+        "mapa";
+        gap: 5px;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    iframe{
+        width: 90%;
+        order: 0;
+    }
+    .containerInfo{
+        grid-area: informacion;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 811px) {
+/* NAV */
+    .nav-item a{
+        font-size: 13px;
+    }
+    .navbar-brand img{
+        width:65px;
+    }
+/* INDEX */
+    .carousel {
+        width: 70%;
+        margin: 60px auto 30px auto;
+    }
+    .carousel-item{
+        height: 250px;
+    }
+    .captionCenter{
+        font-size: 15px;
+    }
+/*INFORMACION*/
+.contenedorImagenes {
+    max-width: 95%;
+}
+.diplomasImg div {
+    width: 250px;
+    height: 150px;
+}
+/* CONTACTO */
+    .containerInfo{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 771px) {
+/* NAV */
+    .nav-item a{
+        font-size: 12px;
+    }
+/* INFORMACIÓN */
+    .diplomasImg div > img {
+        height: 180px;
+        box-shadow: 5px 5px 3px rgb(125, 113, 113);
+    }
+}
+
+/******************* MOBILE *******************/
+@media only screen and (max-width: 768px) {
+/* NAV */
+    .nav-item a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-brand img{
+        width:60px;
+    }
+
+/* INDEX */
+    .carousel{
+        width: 90%;
+    }
+    .carousel-item{
+        height: 220px;
+    }
+    .textoPrincipal{
+        font-size: 30px;
+    }
+    .contenedor {
+        flex-direction: column;
+        align-content: center;
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedorIndex{
+        align-content: center;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textoContenedor{
+        font-size:17px;
+    }
+/* TRATAMIENTOS */
+    .tituloTratamientos{
+        padding-top: 4rem;
+    }
+    .d-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .item img {
+        height: 260px;
+    }
+    .item.square.effect .info h3 {
+        font-size: 16px;
+        margin: 180px 0 0 0;
+    }
+    .botonWsp{
+        margin: 5% 8%;
+    }
+    .botonCita{
+        font-size: 14px;
+    }
+    .imgWp {
+        height: 30px;
+        width: 30px;
+    }
+/* PRODUCTOS */
+    .contenedorLineas{
+        padding-top: 8%;
+    }
+    .imagenContenedor{
+        height: 80%;
+    }
+/* INFORMACIÓN */
+    .mainMicaela{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "infoMicaela" 
+        "imagenMicaela";
+        gap: 10px;
+        width: 85%;
+    }
+    .contenedorMicaela{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .infoMicaela{
+        justify-content: center;
+    }
+/* CONTACTO */
+    .datos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 3fr;
+        grid-template-areas: 
+        "informacion"
+        "mapa";
+        align-items: center;
+        justify-items: center;
+        gap: 5px;
+    }
+    iframe{
+        width: 90%;
+        height: 320px;
+    }
+    .containerInfo{
+        grid-area: informacion;
+        flex-direction: column;
+        margin: 5% 5% 0 5%;
+    }
+}
+
+@media only screen and (max-width:767px){
+/* NAV */
+    .nav-item a{
+        border: 1px solid rgb(144, 144, 144);
+        margin: 8px;
+    }
+    .navbar-toggler-mobile {
+        display: block;
+        margin: 0 30px;
+    }
+    .navbar-collapse{
+        min-height: 400px;
+        padding: 12% 0;
+    }
+}
+
+@media only screen and (max-width:550px){
+/*NAV */
+    .navbar-brand img{
+        width:50px;
+    }
+    .imagenFija h3{
+        padding-top: 20%;
+    }
+    .imagenFija a > p{
+        padding-top: 0;
+    }
+/* INDEX */
+    .textoPrincipal{
+        font-size:28px;
+    }
+    .carousel {
+        width: 90%;
+    }
+    .captionCenter{
+        font-size: 15px;
+        p{
+            margin: 5px 10px auto 10px;
+        }
+    }
+/* TRATAMIENTOS */
+    .d-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item img {
+        height: 250px;
+    }
+/* PRODUCTOS */
+.productoContenedor{
+    width: 200px;
+    height: 230px;
+}
+.imagenContenedor{
+    height: 75%;
+}
+.textoProducto{
+    font-size: 13px;
+}
+/* INFORMACIÓN */
+    .mainMicaela{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr;
+        grid-template-areas:
+        "infoMicaela" "imagenMicaela";
+    }
+    .infoMicaela{
+        padding-top: 15%;
+    }
+
+    .diplomasImg div > img {
+        height: 125px;
+    }
+/* CONTACTO */
+    .containerInfo{
+        font-size: 15px;
+    }
+    .containerInfo{
+        margin-top: 8% ;
+    }
+/* FOOTER */
+    .copyright{
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media only screen and (max-width:450px){
+/* INDEX */
+    .carousel-item{
+        height: 260px;
+    }
+    .captionCenter{
+        font-size: 14px;
+        height: 240px;
+    }
+    .textoPrincipal{
+        font-size: 26px;
+    }
+    .contenedorIndex{
+        height: 380px;
+    }
+    .textoContenedor{
+        font-size:14px;
+    }
+    .diplomasImg div > img {
+        height: 180px;
+    }
+/* TRATAMIENTOS */
+    .d-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item img {
+        height: 240px;
+    }
+    .diplomasImg div > img {
+        height: 160px;
+    }
+/* PRODUCTOS */
+    .productoContenedor{
+        width: 180px;
+        height: 210px;
+    }
+    .textoProducto{
+        font-size: 12px;
+    }
+/* CONTACTO */
+    .containerInfo{
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width:300px){
+.imagenFija h3{
+    padding-top: 30%;
+}
+.imagenFija a > p{
+    padding-top: 0;
+}
+}

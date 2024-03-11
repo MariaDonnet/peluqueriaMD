@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="https://github.com/MariaDonnet">
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./multimedia/logoFaviconCirculo.png" type="image/x-icon">
+
+    <!--Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Peluqueria MD</title>
+</head>
+
+<body class="body">
+    <header>
+        <!-- Inicio menú de navegación -->
+        <nav class="navbar navbar-expand-md shadow fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand p-2" href="./index.html"><img src="./multimedia/logoSinFondo.png" alt="logo MD"
+                        class="animate__animated animate__fadeInDown"></a>
+                <button class="navbar-toggler-mobile" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mb-1 mb-md-0">
+                        <li class="nav-item active">
+                            <a class="text-uppercase nav-link text-center" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link text-center" href="./paginas/tratamientos.html">Servicios
+                                y Tratamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link text-center"
+                                href="./paginas/informacion.html">Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link text-center" href="./paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link text-center" href="./paginas/contacto.html">Contactame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin de menu de navegación -->
+    </header>
+
+    <!--Imagen fija-->
+    <main class="contenedorMain">
+        <div class="imagenFija">
+            <h3> MD | Peluquería unisex</h3>
+            <a href="#contenedor">
+                <p>Descubre tu mejor versión</p>
+            </a>
+            <div class="lineaFija"></div>
+
+            <!-- Inicio de Consejos -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner align-middle">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <div class="carousel-caption captionCenter">
+                            <h2>HIDRATACIÓN</h2>
+                            <p>Mantener el pelo <span class="fw-semibold">hidratado y nutrido</span> es necesario
+                                para proteger el cabello del frío que afecta a tu melena y hace que sea más frágil.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption captionCenter">
+                            <h2>TEMPERATURA</h2>
+                            <p>
+                                Regulá la <span class="fw-semibold">temperatura</span> del agua con la que lavas tu
+                                pelo.
+                                <span>Evitá</span> exponerlo al <span class="fw-semibold">calor</span> del secador o
+                                la planchita, utilizá siempre <span class="fw-semibold">protectores térmicos</span>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption captionCenter">
+                            <h2>CORTE</h2>
+                            <p> Un <span class="fw-semibold">corte</span> de puntas siempre ayuda a <span
+                                    class="fw-semibold">fortalecer</span> tu cabello.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Inicio Tarjetas de líneas -->
+    <div class="textoContenedor">
+        <h2 id="contenedor" class="text-center textoPrincipal">¡¡¡Bienvenido a un mundo de cortes y colores!!! </h2>
+    </div>
+    <section class="contenedor">
+        <div class="contenedorIndex">
+            <a href="./paginas/tratamientos.html">
+                <div class="imagenContenedor">
+                    <img src="./multimedia/imagenTratamientos.jpg" alt="imagenTratamientos" />
+                </div>
+                <div class="textoContenedor">
+                    <p>Servicios | Tratamientos</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="contenedorIndex">
+            <a href="./paginas/productos.html">
+                <div class="imagenContenedor">
+                    <img src="./multimedia/imagenProductos.jpg" alt="imagenProductos" />
+                </div>
+                <div class="textoContenedor">
+                    <p>Productos</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- Fin Tarjetas de líneas-->
+
+    <!-- Inicio de footer -->
+    <footer class="footer">
+        <div class="footerFlex">
+            <a href="https://www.instagram.com/md_peluqueriok/" target="_blank" class="redes"><img
+                    src="./multimedia/iconoInstagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/mica.donnet.3?locale=es_ES" target="_blank" class="redes"><img
+                    src="./multimedia/iconoFacebook.png" alt="Facebook"></a>
+            <a href="https://api.whatsapp.com/send?phone=++51929190308&text=%20Mensaje%20enviado%20desde%20la%20web"
+                target="_blank" class="redes"><img src="./multimedia/iconoWhatsaap.png" alt="Whatsaap"></a>
+        </div>
+
+        <div class="lineaFooter"></div>
+        <div class="copyright">
+            Copyright © 2024 MD Peluquería. Todos los derechos reservados.
+        </div>
+    </footer>
+    <!-- Fin de footer -->
+
+    <!-- Boostrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
